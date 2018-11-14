@@ -1,0 +1,34 @@
+.menu {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+  height: 8vh;
+  z-index: 2;
+}
+
+.line {
+  background: #fff;
+  height: 4px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.open {
+  background: #000;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 50%;
+  margin-top: -15px;
+  left: 0;
+  cursor: pointer;
+}
+
+.line:first-child {
+  margin-bottom: 5px;
+}

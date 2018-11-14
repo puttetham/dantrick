@@ -1,0 +1,64 @@
+.footer {
+  background-color: #eee;
+  /* height: 30vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+
+.contact-logo > img {
+  height:30px;
+  width: 30px;
+  display: inline;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.copyright {
+  font-size: 1.1em;
+  font-family: 'Montserrat','Raleway', sans-serif;
+  margin-bottom: 0;
+}
+
+.copyright:last-child {
+  margin-top: 0;
+}
+
+.djfoot {
+  border-bottom: 2px solid #C70039;
+  display: inline-block;
+  font-size: 0.9em;
+  font-family: headingText, 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+ .copyright {
+   font-size: 0.9rem;
+ }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+   
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+ }
+
+
+ @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .copyright {
+    font-size: 2rem;
+  }
+
+  .contact-logo > img {
+    height:50px;
+    width: 50px;
+    
+  }
+ }

@@ -1,0 +1,47 @@
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  z-index:11;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.85);
+  transform: translateY(-100%);
+  transition: transform .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  transform: translateY(0);
+  transition: transform .4s;
+  position: fixed;
+}
+
+.line.close {
+  margin: 0;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.line.close:first-child {
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+}
+
+.line.close:last-child {
+  transform: rotate(-45deg);
+  transform-origin: 50% 50%;
+}
+
+.mobile-item {
+  color: #FFF;
+  font-size: 2em;
+  font-family: headingText,'Raleway', sans-serif;
+}
+
+a > h2 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+

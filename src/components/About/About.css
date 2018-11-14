@@ -1,0 +1,114 @@
+.about {
+    height: 100vh;
+    width: 100%;
+   /*  background-color: #B4DBC0; */
+   display: flex;
+   flex-direction: column;
+   background-image: url('../../assets/dannez.jpg');
+   /* background-attachment: center; */
+   margin: 0 auto;
+}
+
+.shurda {
+    color: #C70039;
+    font-weight: bold;
+}
+
+.about-container {
+    height: auto;
+}
+
+.about-description {
+  
+  max-width: 45%;
+  margin-left: 8.5rem;
+  margin-top: 9rem; 
+}
+
+.about-text {
+    font-weight: bold;
+    color: #181818;
+    line-height: 30px;
+    font-family: 'Special Elite', cursive;
+    
+   
+    
+    
+}
+
+/* DESKTOP AND BIG LAPTOP */
+
+@media only screen and (min-width: 1600px) {
+  .about {
+    background-size: cover;
+    background-attachment: center;
+  }
+
+  .about-description {
+    max-width: 32%; 
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about-text {
+    padding: 1rem;
+  }
+}
+
+/* PHONE AND TABLET */
+@media only screen and (max-width: 846px) {
+  .about {
+    background-size: cover;
+    background-position: 23% !important;
+    border-top: initial !important;
+  }
+
+  .about-container {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .about-description {
+    background: initial;
+    margin-left: 0;
+    margin-top: 0;
+    max-width: initial;
+    height: 100%;
+    background-color: rgba(220, 220, 220, 0.3);
+    
+  }
+
+  .about-text {
+    margin: 0;
+    position: relative;
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    width: 80%;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+
+  .shurda {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-container {
+    max-width: 65%;    
+  }
+
+  .about-description {
+    max-width: 65%;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    background-color: initial;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .about-description {
+    margin-left: 4rem;
+  }
+}

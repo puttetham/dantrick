@@ -1,0 +1,96 @@
+.banner {
+    background-color: #181818;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+.banner-heading {
+    margin: 0;
+    display: block;
+    font-size: 6rem;
+    color: #C70039;
+    font-family: headingText, 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-left: 8.5rem;
+}
+
+.banner-text {
+    color: #eee;
+    margin-left: 8.5rem;
+    font-family: headingText, 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.banner-shurda {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.textfix {
+    font-weight: 800;
+}
+
+.widget-cloudcast-image:after {
+    display: none !important;
+}
+
+@media only screen and (max-width: 740px) {
+
+    .banner {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .banner-heading {
+      font-size: 2.5rem; 
+      margin-left: 1rem;      
+    }
+
+    .banner-text {
+      margin-left: 1rem;
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
+
+    .banner-text > span {
+      font-size: 1rem;
+    }
+
+    .banner-text > .banner-shurda {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner { 
+    }
+
+    .banner-heading {
+      font-size: 3rem;
+      margin-left: 2rem;
+    }
+
+    .banner-text {
+   
+      margin-left: 2rem;
+   
+  }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .banner { 
+    }
+
+    .banner-heading {
+      font-size: 3rem;
+      margin-left: 4rem;
+    }
+
+    .banner-text {
+   
+      margin-left: 4rem;
+   
+  }
+  }

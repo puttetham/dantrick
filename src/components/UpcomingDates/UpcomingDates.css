@@ -1,0 +1,109 @@
+.upcoming-dates {
+  /* box-shadow: 2px 2px 2px #888888; */
+  color: #FFF;
+  width: 300px;
+  width: 100%;
+  display: flex;
+  font-family: 'Special Elite', serif;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.date-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+
+}
+
+.date-item > p {
+  font-size: 1.5rem;
+  margin: 0;  
+  margin-bottom: 0.2rem;
+  margin-left: 8.5rem;
+  font-family: 'Special Elite', serif;
+}
+
+.venue {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #C70039;
+}
+.divider > h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.date-title {
+  font-size: 3rem;
+  margin-left: 8.5rem;
+}
+
+/* @media only screen and (min-width: 1440px) {
+  
+  .upcoming-dates {
+    align-items: center;
+ 
+  }
+
+  .date-title {
+    margin-left: 0;
+  }
+
+  .date-item > p {
+    margin-left: 0;
+  }
+} */
+
+@media only screen and (max-width: 700px) {
+  
+  .upcoming-dates {
+    align-items: center;
+  }
+  
+  .date-title {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+  }
+
+  .date-item > p {
+    font-size: 1rem;
+    margin-left: 0rem;
+    
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .upcoming-dates {
+    align-items: center;
+  }
+  
+  .date-item > p {
+    margin-left: 2rem;
+  }
+
+  .date-title {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+   .upcoming-dates {
+    align-items: center;
+  }
+
+  .date-item > p {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .date-title {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+
+}
+
+
+
